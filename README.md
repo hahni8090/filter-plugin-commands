@@ -16,10 +16,15 @@ bin/logstash -e 'input { stdin{} } filter { commands { parameter1 => "<param1>" 
 ```
 
 Script should be global on your machine!
+
 You have 5 parameters
+
 Plugin execute: your-script.sh param1 ... param5
+
 Response of <your-script> must be json ({"hello":"world"})!
+
 Result in Logstash:
+
 ```sh
 ...
 "<attribute>" => {
