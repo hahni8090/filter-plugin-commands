@@ -4,7 +4,7 @@
 git clone https://github.com/hahni8090/logstash-filter-commands.git
 
 ## Install
-bin/logstash-plugin install '/<path-to-plugin>/logstash-filter-commands-0.1.0.gem'
+bin/logstash-plugin install /<<path-to-plugin>>/logstash-filter-commands-0.1.0.gem'
 
 ## Run
 ```sh
