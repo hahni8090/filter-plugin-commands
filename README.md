@@ -1,4 +1,5 @@
-# Logstash Plugin
+# Logstash Commands Plugin
+Executes scripts on your server.
 
 ## Download
 git clone https://github.com/hahni8090/logstash-filter-commands.git
