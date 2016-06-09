@@ -28,7 +28,7 @@ Result in Logstash:
 ```sh
 ...
 "<attribute>" => {
-        "some" => "value"
+        "hello" => "world"
     }
 ...
 ```
